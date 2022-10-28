@@ -1,0 +1,32 @@
+body {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #151515;
+}
+
+.splash img {
+  width: 15vh;
+  max-width: 216px;
+  height: auto;
+  animation : pulse 1s infinite;
+}
+
+@keyframes pulse {
+  from {
+      transform : scale(1);
+      opacity   : 1;
+  }
+  50% {
+      transform : scale(0.75);
+      opacity   : 0.25;
+  }
+  to {
+      transform : scale(1);
+      opacity   : 1;
+  }
+}
