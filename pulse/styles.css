@@ -16,6 +16,12 @@ body {
   animation : pulse 1s infinite;
 }
 
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background: #fff;
+  }
+}
+
 @keyframes pulse {
   from {
       transform : scale(1);

@@ -52,6 +52,24 @@ body {
   animation-fill-mode: forwards;
 }
 
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background: #fff;
+  }
+
+  .splash__text {
+    color: #151515;
+  }
+
+  .splash__text h1 {
+    color: #151515;
+  }
+
+  .splash__text h2 {
+    color: #151515;
+  }
+}
+
 @keyframes text {
   from {
     letter-spacing: 0px;
